@@ -86,6 +86,8 @@ body {
 }
 
 .contact-info__block {
+    flex-basis: 30%;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -93,6 +95,7 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item {
@@ -100,6 +103,8 @@ body {
     text-decoration: none;
     display: flex;
     justify-content: start;
+
+    align-items: center;
 }
 
 .contact-info__item:not(:last-child) {
@@ -260,4 +265,8 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.invisible-block {
+    opacity: 0;
 }
